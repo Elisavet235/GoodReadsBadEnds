@@ -19,7 +19,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="dislike xrwma allagh">
+    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="dislike enhmerwsh">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ergasia/js/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/js/homepage.js" afterDir="false" />
     </list>
@@ -133,7 +133,8 @@
       <workItem from="1777062097891" duration="214000" />
       <workItem from="1777100606509" duration="3015000" />
       <workItem from="1777112682388" duration="1732000" />
-      <workItem from="1777114965938" duration="3413000" />
+      <workItem from="1777114965938" duration="3692000" />
+      <workItem from="1777712810728" duration="354000" />
     </task>
     <task id="LOCAL-00001" summary="commit1 html,css,js">
       <option name="closed" value="true" />
@@ -247,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777117925656</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="dislike enhmerwsh">
+      <option name="closed" value="true" />
+      <created>1777118446856</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1777118446856</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -257,7 +266,8 @@
     <MESSAGE value="commit1 html,css,js" />
     <MESSAGE value="mikres allages" />
     <MESSAGE value="dislike xrwma allagh" />
-    <option name="LAST_COMMIT_MESSAGE" value="dislike xrwma allagh" />
+    <MESSAGE value="dislike enhmerwsh" />
+    <option name="LAST_COMMIT_MESSAGE" value="dislike enhmerwsh" />
   </component>
   <component name="com.gk646.codestats.settings.Save">
     <option name="commitTimePoints">
@@ -346,6 +356,12 @@
           <option name="totalLines" value="1549" />
           <option name="info" value="dislike xrwma allagh" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1777118446981" />
+          <option name="linesCode" value="554" />
+          <option name="totalLines" value="1550" />
+          <option name="info" value="dislike enhmerwsh" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -387,9 +403,9 @@
           <option name="info" value="25 Απρ 2026" />
         </TimePoint>
         <TimePoint>
-          <option name="timestamp" value="1777117925840" />
-          <option name="linesCode" value="553" />
-          <option name="totalLines" value="1549" />
+          <option name="timestamp" value="1777118446981" />
+          <option name="linesCode" value="554" />
+          <option name="totalLines" value="1550" />
           <option name="info" value="25 Απρ 2026" />
         </TimePoint>
       </list>

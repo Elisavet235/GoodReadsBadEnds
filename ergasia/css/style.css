@@ -403,13 +403,14 @@ body{
   height: 28px;
 }
 
-.caption-text{
-  margin-bottom:40px;
-}
-
 .book-title{
+  font-size: large;
   margin-top:10px;
   margin-bottom: 10px;
+}
+
+.comment{
+  font-weight: normal;
 }
 
 .search-bar button {
@@ -472,10 +473,25 @@ body{
   height:270px;
 }
 
-.dislike-section{
+.price-dislike{
   position: absolute;
+  width:85%;
   bottom: 10px;
-  right: 15px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+.price{
+  order:1;
+  position:relative;
+}
+
+.dislike-section{
+  order:2;
+  position:relative;
 
   font-weight: bold;
   font-size: large;
@@ -487,23 +503,22 @@ body{
 }
 
 .dislike-section button{
-  height:15px;
-  width:15px;
+  height:18px;
+  width:18px;
   border-color: transparent;
   background-color: transparent;
   cursor: pointer;
 }
 
 .dislike-section img{
-  height:15px;
-  width:15px;
+  height:18px;
+  width:18px;
   rotate:180deg;
 }
 
-.book-title{
+.caption-text{
+  margin-bottom:40px;
   font-weight: bold;
-  font-size: large;
-  text-align: center;
   padding-top: 2px;
   padding-bottom: 5px;
 }

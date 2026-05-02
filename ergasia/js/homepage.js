@@ -62,14 +62,13 @@ function showSlidesAutomatic() {
 }
 
 //Κώδικας για τα dislike
-
 let disliked=false
 dislikeStart();
 
+//Αρχικοποίηση των dislike
 function dislikeStart(){
     let bookNumber;
     let amountOfBooks=document.getElementById("grid-homepage").children.length
-    console.log(amountOfBooks)
     for(bookNumber=1;bookNumber<=amountOfBooks;bookNumber++)
     {
         let bookId="book"+bookNumber
@@ -77,7 +76,7 @@ function dislikeStart(){
     }
 }
 
-
+//Ενημέρωση των dislike
 function dislikeClicked(){
     if (disliked===false){
         this.firstElementChild.src="img/dislike-after.png"

@@ -9,111 +9,140 @@
 </head>
 <body>
 
-    <!-- Κύματα  -->
-    <section>
-        <div class='air air1'></div>
-        <div class='air air2'></div>
-        <div class='air air3'></div>
-        <div class='air air4'></div>
-    </section>
+<!-- Κύματα  -->
+<section>
+    <div class='air air1'></div>
+    <div class='air air2'></div>
+    <div class='air air3'></div>
+    <div class='air air4'></div>
+</section>
 
-    <!-- Navigation με κουμπιά για αρχική σελίδα και άλλη σελίδα  -->
-    <nav>
-        <div class="navigation-text">
-            <img src="../ergasia/img/logo.png" alt="logo">
-            <h1>GoodReads-BadEnds</h1>
-        </div>
-        <div class="navigation-links">
-            <a href="../ergasia/homepage.html">Homepage</a>
-            <a class="active" href="../ergasia/items.html">Βιβλία</a>
-        </div>
-    </nav>
-
-    <!-- Logo και το όνομα  -->
-    <div class="logo-name">
+<!-- Navigation με κουμπιά για αρχική σελίδα και άλλη σελίδα  -->
+<nav>
+    <div class="navigation-text">
         <img src="../ergasia/img/logo.png" alt="logo">
-        <h1 class="headergood">GoodReads</h1>
-        <h1 class="headerbad">BadEnds</h1>
+        <h1>GoodReads-BadEnds</h1>
     </div>
+    <div class="navigation-links">
+        <a href="../ergasia/homepage.html">Homepage</a>
+        <a class="active" href="../ergasia/items.html">Βιβλία</a>
+    </div>
+</nav>
 
-    <main>
-        <div class="search">
-            <div class="search-bar">
-                <form action="">
-                    <input type="text" placeholder="Ψάξε βιβλίο..." name="search">
-                    <button type="submit"><img src="../ergasia/img/magnifying-glass2.png" alt="search button"></button>
-                </form>
-            </div>
+<!-- Logo και το όνομα  -->
+<div class="logo-name">
+    <img src="../ergasia/img/logo.png" alt="logo">
+    <h1 class="headergood">GoodReads</h1>
+    <h1 class="headerbad">BadEnds</h1>
+</div>
 
-            <div class="item-grid" id="grid-items">
-                <div class="result">
-                    <img src="../ergasia/img/item4.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Elegance Of The Hedgehog&quot;">
-                    <div class="caption-text">
-                        <div class="book-title">The Elegance Of The Hedgehog</div>
-                        <div class="comment">Loved the book up to the last chapter. I'm still furious about it.</div>
-                    </div>
+<main>
+    <div class="search">
+        <div class="search-bar">
+            <form action="">
+                <input type="text" placeholder="Ψάξε βιβλίο..." name="search">
+                <button type="submit"><img src="../ergasia/img/magnifying-glass2.png" alt="search button"></button>
+            </form>
+        </div>
+
+        <div class="item-grid" id="grid-items">
+            <div class="result">
+                <img src="../ergasia/img/item4.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Elegance Of The Hedgehog&quot;">
+                <div class="caption-text">
+                    <div class="book-title">The Elegance Of The Hedgehog</div>
+                    <div class="comment">Loved the book up to the last chapter. I'm still furious about it.</div>
+                </div>
+                <div class="price-dislike">
+                    <div class="price">22$</div>
                     <div class="dislike-section">
-                        <button> <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"> </button>
+                        <button id="book1">
+                            <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"/>
+                        </button>
                         120
                     </div>
                 </div>
+            </div>
 
-                <div class="result">
-                    <img src="../ergasia/img/item5.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Lovely Bones&quot;">
-                    <div class="caption-text">
-                        <div class="book-title">The Lovely Bones</div>
-                        <div class="comment">There was so much build up and then it just ended - like what?</div>
-                    </div>
+            <div class="result">
+                <img src="../ergasia/img/item5.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Lovely Bones&quot;">
+                <div class="caption-text">
+                    <div class="book-title">The Lovely Bones</div>
+                    <div class="comment">There was so much build up and then it just ended - like what?</div>
+                </div>
+                <div class="price-dislike">
+                    <div class="price">22$</div>
                     <div class="dislike-section">
-                        <button> <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"> </button>
+                        <button id="book2">
+                            <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"/>
+                        </button>
                         10
                     </div>
                 </div>
+            </div>
 
-                <div class="result">
-                    <img src="../ergasia/img/item6.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;My Sister's Keeper&quot;">
-                    <div class="caption-text">
-                        <div class="book-title">My Sister's Keeper</div>
-                        <div class="comment">That ending was so bad, I was actually angry at the friend who'd loaned me the book for not warning me.</div>
-                    </div>
+            <div class="result">
+                <img src="../ergasia/img/item6.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;My Sister's Keeper&quot;">
+                <div class="caption-text">
+                    <div class="book-title">My Sister's Keeper</div>
+                    <div class="comment">That ending was so bad, I was actually angry at the friend who'd loaned me the book for not warning me.</div>
+                </div>
+                <div class="price-dislike">
+                    <div class="price">22$</div>
                     <div class="dislike-section">
-                        <button> <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"> </button>
+                        <button id="book3">
+                            <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"/>
+                        </button>
                         5
                     </div>
                 </div>
+            </div>
 
-                <div class="result">
-                    <img src="../ergasia/img/item7.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;Eragon&quot;">
-                    <div class="caption-text">
-                        <div class="book-title">Eragon</div>
-                        <div class="comment">A ton of loose ends and the final battle was a huge let down. Seriously, empathy is what gets the evil guy?</div>
-                    </div>
-                    <div class="dislike-section">
-                        <button> <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"> </button>
-                        0
-                    </div>
+            <div class="result">
+                <img src="../ergasia/img/item7.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;Eragon&quot;">
+                <div class="caption-text">
+                    <div class="book-title">Eragon</div>
+                    <div class="comment">A ton of loose ends and the final battle was a huge let down. Seriously, empathy is what gets the evil guy?</div>
                 </div>
-
-                <div class="result">
-                    <img src="../ergasia/img/item8.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Andromeda Strain&quot;">
-                    <div class="caption-text">
-                        <div class="book-title">The Andromeda Strain</div>
-                        <div class="comment">I think he gets so caught up in his cool idea and how terrible science can be and wow action scenes...and then he realizes he's got to end it somehow soon.</div>
-                    </div>
+                <div class="price-dislike">
+                    <div class="price">22$</div>
                     <div class="dislike-section">
-                        <button> <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"> </button>
+                        <button id="book4">
+                            <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"/>
+                        </button>
                         1
                     </div>
                 </div>
             </div>
 
+            <div class="result">
+                <img src="../ergasia/img/item8.jpg" style="width:100%" alt="Το εξώφυλλο του &quot;The Andromeda Strain&quot;">
+                <div class="caption-text">
+                    <div class="book-title">The Andromeda Strain</div>
+                    <div class="comment">I think he gets so caught up in his cool idea and how terrible science can be and wow action scenes...and then he realizes he's got to end it somehow soon.</div>
+                </div>
+                <div class="price-dislike">
+                    <div class="price">22$</div>
+                    <div class="dislike-section">
+                        <button id="book5">
+                            <img src="../ergasia/img/dislike-before.png" alt="κουμπί dislike"/>
+                        </button>
+                        0
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
-    <div class="footer">
-        <div class="footer-header">Μέλη ομάδας</div>
-        <div class="footer-text">
-            Αργυρώ Μπανιώτη, Ελισάβετ Κυριαζοπούλου, Αλεξάνδρα Κολπακίδη, Δήμητρα Λιλή
-        </div>
+
     </div>
+</main>
+<div class="footer">
+    <div class="footer-header">Μέλη ομάδας</div>
+    <div class="footer-text">
+        Αργυρώ Μπανιώτη, Ελισάβετ Κυριαζοπούλου, Αλεξάνδρα Κολπακίδη, Δήμητρα Λιλή
+    </div>
+</div>
+
+
+<script src="../ergasia/js/items.js" defer></script>
 
 </body>
+</html>
