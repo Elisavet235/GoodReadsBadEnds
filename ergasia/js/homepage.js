@@ -62,23 +62,27 @@ function showSlidesAutomatic() {
 }
 
 //Κώδικας για τα dislike
-let disliked=false
-dislikeStart();
+let disliked_homepage={};
 
-//Αρχικοποίηση των dislike
-function dislikeStart(){
+dislikeStartHomepage();
+
+function dislikeStartHomepage(){
     let bookNumber;
+    console.log(document.getElementById("grid-homepage"))
     let amountOfBooks=document.getElementById("grid-homepage").children.length
     for(bookNumber=1;bookNumber<=amountOfBooks;bookNumber++)
     {
         let bookId="book"+bookNumber
-        document.getElementById(bookId).addEventListener("click", dislikeClicked);
+        disliked_homepage[bookId]=false
+        document.getElementById(bookId).addEventListener("click", dislikeClickedHomepage);
     }
 }
 
-//Ενημέρωση των dislike
-function dislikeClicked(){
-    if (disliked===false){
+
+function dislikeClickedHomepage(){
+    let bookId=this.id;
+    console.log(disliked_homepage[bookId])
+    if (disliked_homepage[bookId]===false){
         this.firstElementChild.src="img/dislike-after.png"
         this.nextSibling.textContent++;
     }
@@ -86,5 +90,5 @@ function dislikeClicked(){
         this.firstElementChild.src="img/dislike-before.png"
         this.nextSibling.textContent--;
     }
-    disliked=!disliked
+    disliked_homepage[bookId]=!disliked_homepage[bookId]
 }
