@@ -455,6 +455,18 @@
           <option name="totalLines" value="680590" />
           <option name="info" value="Ενημέρωση dislike για να δουλεύουν και app.py για " />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778405587978" />
+          <option name="linesCode" value="386228" />
+          <option name="totalLines" value="680662" />
+          <option name="info" value="Αλλαγή js, μετατροπή link του navigation σε κουμπι" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778405730792" />
+          <option name="linesCode" value="386228" />
+          <option name="totalLines" value="680662" />
+          <option name="info" value="Μετακίνηση navigation" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -512,6 +524,12 @@
           <option name="linesCode" value="386186" />
           <option name="totalLines" value="680590" />
           <option name="info" value="8 Μαΐ 2026" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778405730792" />
+          <option name="linesCode" value="386228" />
+          <option name="totalLines" value="680662" />
+          <option name="info" value="10 Μαΐ 2026" />
         </TimePoint>
       </list>
     </option>
