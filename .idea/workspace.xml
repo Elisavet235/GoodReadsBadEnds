@@ -19,8 +19,10 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="Αλλαγή js, μετατροπή link του navigation σε κουμπιά, αλλαγή χρωμάτων, αλλαγή logo">
-      <change beforePath="$PROJECT_DIR$/ergasia/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/css/style.css" afterDir="false" />
+    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="Μετακίνηση logo-name">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/items.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/js/items.js" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/js/items.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -173,7 +175,7 @@
       <workItem from="1778250300508" duration="897000" />
       <workItem from="1778261372976" duration="8386000" />
       <workItem from="1778322010574" duration="2116000" />
-      <workItem from="1778405292862" duration="315000" />
+      <workItem from="1778405292862" duration="1130000" />
     </task>
     <task id="LOCAL-00001" summary="commit1 html,css,js">
       <option name="closed" value="true" />
@@ -319,7 +321,23 @@
       <option name="project" value="LOCAL" />
       <updated>1778405537892</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="Μετακίνηση navigation">
+      <option name="closed" value="true" />
+      <created>1778405730029</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1778405730029</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Μετακίνηση logo-name">
+      <option name="closed" value="true" />
+      <created>1778405816199</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1778405816199</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -344,7 +362,9 @@
     <MESSAGE value="Ενημέωση dislike ώστε να δουλεύουν σωστά στην αρχική σελίδα και στη σελίδα με τα βιβλία, προσθήκη τιμής, αλλαγή κειμένου αρχικής σελίδας" />
     <MESSAGE value="Ενημέρωση dislike για να δουλεύουν και app.py για atlas" />
     <MESSAGE value="Αλλαγή js, μετατροπή link του navigation σε κουμπιά, αλλαγή χρωμάτων, αλλαγή logo" />
-    <option name="LAST_COMMIT_MESSAGE" value="Αλλαγή js, μετατροπή link του navigation σε κουμπιά, αλλαγή χρωμάτων, αλλαγή logo" />
+    <MESSAGE value="Μετακίνηση navigation" />
+    <MESSAGE value="Μετακίνηση logo-name" />
+    <option name="LAST_COMMIT_MESSAGE" value="Μετακίνηση logo-name" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -467,6 +487,12 @@
           <option name="totalLines" value="680662" />
           <option name="info" value="Μετακίνηση navigation" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778405817046" />
+          <option name="linesCode" value="386228" />
+          <option name="totalLines" value="680662" />
+          <option name="info" value="Μετακίνηση logo-name" />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -526,7 +552,7 @@
           <option name="info" value="8 Μαΐ 2026" />
         </TimePoint>
         <TimePoint>
-          <option name="timestamp" value="1778405730792" />
+          <option name="timestamp" value="1778405817046" />
           <option name="linesCode" value="386228" />
           <option name="totalLines" value="680662" />
           <option name="info" value="10 Μαΐ 2026" />
