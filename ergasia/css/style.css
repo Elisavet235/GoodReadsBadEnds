@@ -14,32 +14,32 @@ section .air {
   left: 0;
   width: 100%;
   height: 100px;
-  background: url(../img/waveblue3.png);
+  background: url(../img/wavegray.png);
   background-size: 1000px 100px;
 }
 section .air.air1{
-  animation: wave 30s linear infinite;
+  animation: wave 35s linear infinite;
   z-index: 5;
   opacity: 1;
   animation-delay: 0s;
   bottom: 0;
 }
 section .air.air2{
-  animation: wave2 15s linear infinite;
+  animation: wave2 41s linear infinite;
   z-index: 4;
   opacity: 0.5;
   animation-delay: -5s;
   bottom: 10px;
 }
 section .air.air3{
-  animation: wave 30s linear infinite;
+  animation: wave 36s linear infinite;
   z-index: 3;
   opacity: 0.2;
   animation-delay: -2s;
   bottom: 15px;
 }
 section .air.air4{
-  animation: wave2 5s linear infinite;
+  animation: wave2 22s linear infinite;
   z-index: 2;
   opacity: 0.7;
   animation-delay: -5s;
@@ -85,43 +85,38 @@ nav{
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  align-items: center;
   padding: 0 5%;
   box-sizing: border-box;
 }
 
 /*link στο navigation*/
-.navigation-links{
+.navigation-buttons{
   float:right;
-  bottom: 20%;
-  align-items: center;
-
   display: flex;
   gap:0;
   text-align: center;
   font-size: 17px;
 }
 
-.navigation-links a{
+.navigation-buttons button{
   padding: 20px 20px 20px 20px;
   font-size: large;
-}
-
-.navigation-links a:link, a:visited{
-  text-decoration: none;
+  border-style: none;
+  font-family: 'Century Gothic', sans-serif;
+  background-color: transparent;
   color:white;
 }
 
-.navigation-links a.active{
+.navigation-buttons button.active{
   background-color: white;
-  color:black;
+  color: black;
 }
 
-.navigation-links a:hover{
+.navigation-buttons button:hover{
   background-color: rgb(60,60,60,0.5);
   color:white;
+  cursor: pointer;
 }
-
 
 /*text και εικόνα στο navigation*/
 .navigation-text{
@@ -147,15 +142,16 @@ nav{
   position:absolute;
   left: 50%;
   transform: translateX(-50%);
-  width: 400px;
-  background-color: rgb(200,200,250,0.8);
+  width: auto;
+  background-color: rgb(40,40,40,1);
   z-index: 6;
   border-style: solid;
-  border-color:rgb(37, 39, 77);
+  border-color:#0a012c;
   border-radius: 20px;
-
+  border-width: 2px;
+  display: flex;
+  align-items: center;
   margin-bottom: 200vh;
-
 }
 
 /*εικόνα logo*/
@@ -163,27 +159,17 @@ nav{
   float: left;
   height: 72px;
   background-color: transparent;
-  border-radius: 19px;
-
+  border-radius: 20px;
+  z-index: 1;
 }
 
 /*κείμενο του logo*/
-.headergood{
-  font-family: 'Magneto','Arial', sans-serif;
-  color: forestgreen;
-  position:absolute;
-  left: 55%;
-  transform: translateX(-50%);
-  top:0
-}
-
-.headerbad{
-  font-family: 'Magneto','Arial', sans-serif;
-  color:crimson;
-  position:absolute;
-  left: 55%;
-  transform: translateX(-50%);
-  bottom:5%
+.logo-name h1{
+  white-space: nowrap;
+  font-size: 25px;
+  color:white;
+  padding-right: 20px;
+  padding-left:20px;
 }
 
 main{
@@ -378,7 +364,7 @@ main{
 
 /*background*/
 main{
-  background-color: rgb(179,191,255);
+  background-color: #e5e3e3;
 }
 
 body{
@@ -403,6 +389,10 @@ body{
   height: 28px;
 }
 
+.search-bar:enabled{
+  border-radius: 8px 20px 0 8px;
+}
+
 .book-title{
   font-size: large;
   margin-top:10px;
@@ -420,10 +410,11 @@ body{
   margin-top: 8px;
   margin-right: 16px;
   background: #ddd;
-  font-size: 17px;
-  border: none;
   height: 28px;
   cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
 }
 
 .search-bar button:hover{
@@ -431,10 +422,9 @@ body{
 }
 
 .search-bar img {
-  position: static;
-  padding-bottom: 10px;
-  height: 27px;
+  position: relative;
   width: 22px;
+  height: 22px;
 }
 
 .search-bar{

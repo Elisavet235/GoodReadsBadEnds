@@ -19,12 +19,12 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="Ενημέωση dislike ώστε να δουλεύουν σωστά στην αρχική σελίδα και στη σελίδα με τα βιβλία, προσθήκη τιμής, αλλαγή κειμένου αρχικής σελίδας">
-      <change beforePath="$PROJECT_DIR$/.idea/projectcode.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/projectcode.iml" afterDir="false" />
+    <list default="true" id="ba3b1267-14c7-47b0-afa6-a6b218b59f14" name="Changes" comment="Ενημέρωση dislike για να δουλεύουν και app.py για atlas">
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ergasia/app.py" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/app.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ergasia/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ergasia/js/homepage.js" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/js/homepage.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/homepage.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/homepage.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ergasia/items.html" beforeDir="false" afterPath="$PROJECT_DIR$/ergasia/items.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -171,7 +171,12 @@
       <workItem from="1777720094786" duration="850000" />
       <workItem from="1777831981453" duration="616000" />
       <workItem from="1778157039787" duration="8605000" />
-      <workItem from="1778179648802" duration="3335000" />
+      <workItem from="1778179648802" duration="4133000" />
+      <workItem from="1778236415880" duration="906000" />
+      <workItem from="1778238964328" duration="938000" />
+      <workItem from="1778250300508" duration="897000" />
+      <workItem from="1778261372976" duration="8386000" />
+      <workItem from="1778322010574" duration="2116000" />
     </task>
     <task id="LOCAL-00001" summary="commit1 html,css,js">
       <option name="closed" value="true" />
@@ -301,7 +306,15 @@
       <option name="project" value="LOCAL" />
       <updated>1777720201825</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="Ενημέρωση dislike για να δουλεύουν και app.py για atlas">
+      <option name="closed" value="true" />
+      <created>1778232181802</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1778232181802</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -324,7 +337,8 @@
     <MESSAGE value="dislike xrwma allagh" />
     <MESSAGE value="dislike enhmerwsh" />
     <MESSAGE value="Ενημέωση dislike ώστε να δουλεύουν σωστά στην αρχική σελίδα και στη σελίδα με τα βιβλία, προσθήκη τιμής, αλλαγή κειμένου αρχικής σελίδας" />
-    <option name="LAST_COMMIT_MESSAGE" value="Ενημέωση dislike ώστε να δουλεύουν σωστά στην αρχική σελίδα και στη σελίδα με τα βιβλία, προσθήκη τιμής, αλλαγή κειμένου αρχικής σελίδας" />
+    <MESSAGE value="Ενημέρωση dislike για να δουλεύουν και app.py για atlas" />
+    <option name="LAST_COMMIT_MESSAGE" value="Ενημέρωση dislike για να δουλεύουν και app.py για atlas" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
@@ -429,6 +443,12 @@
           <option name="totalLines" value="1688" />
           <option name="info" value="Ενημέωση dislike ώστε να δουλεύουν σωστά στην αρχι" />
         </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778232227249" />
+          <option name="linesCode" value="386186" />
+          <option name="totalLines" value="680590" />
+          <option name="info" value="Ενημέρωση dislike για να δουλεύουν και app.py για " />
+        </TimePoint>
       </list>
     </option>
     <option name="genericTimePoints">
@@ -480,6 +500,12 @@
           <option name="linesCode" value="676" />
           <option name="totalLines" value="1688" />
           <option name="info" value="2 Μαΐ 2026" />
+        </TimePoint>
+        <TimePoint>
+          <option name="timestamp" value="1778232227249" />
+          <option name="linesCode" value="386186" />
+          <option name="totalLines" value="680590" />
+          <option name="info" value="8 Μαΐ 2026" />
         </TimePoint>
       </list>
     </option>
