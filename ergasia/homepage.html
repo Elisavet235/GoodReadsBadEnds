@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8" />
     <title>GoodReads-BadEnds</title>
-    <link rel="icon" type="image/x-icon" href="../ergasia/img/logo.png" />
+    <link rel="icon" type="image/x-icon" href="../ergasia/img/logo10.png" />
     <link rel="stylesheet" href="../ergasia/css/style.css" />
 </head>
 <body>
@@ -18,20 +18,19 @@
 <!-- Navigation με κουμπιά για αρχική σελίδα και άλλη σελίδα  -->
 <nav>
     <div class="navigation-text">
-        <img src="../ergasia/img/logo.png" alt="logo" />
-        <h1>GoodReads-BadEnds</h1>
+        <img src="../ergasia/img/logo10.png" alt="logo" />
+        <h1>GoodReads - BadEnds</h1>
     </div>
-    <div class="navigation-links">
-        <a class="active" href="../ergasia/homepage.html">Homepage</a>
-        <a href="../ergasia/items.html">Βιβλία</a>
+    <div class="navigation-buttons">
+        <button class="active" onClick=window.location.href='../ergasia/homepage.html'>Homepage</button>
+        <button onClick=window.location.href='../ergasia/items.html'>Βιβλία</button>
     </div>
 </nav>
 
 <!-- Logo και όνομα  -->
 <div class="logo-name">
-    <img src="../ergasia/img/logo.png" alt="logo" />
-    <h1 class="headergood">GoodReads</h1>
-    <h1 class="headerbad">BadEnds</h1>
+    <img src="../ergasia/img/logo10.png" alt="logo">
+    <h1 class="headergood">GoodReads - BadEnds</h1>
 </div>
 
 <main>
@@ -49,7 +48,7 @@
     <div class="slideshow-container" id="slideshow">
         <!-- Εικόνες του slideshow με captions -->
         <div class="mySlides fade">
-            <div class="numbertext">1 / 4</div>
+            <div class="numbertext">1 / 2</div>
             <img
                     src="../ergasia/img/slides1.jpg"
                     style="width: 100%"
@@ -59,29 +58,9 @@
         </div>
 
         <div class="mySlides fade">
-            <div class="numbertext">2 / 4</div>
+            <div class="numbertext">2 / 2</div>
             <img
                     src="../ergasia/img/slides2.jpg"
-                    style="width: 100%"
-                    alt="Στεναχωρημένος άνθρωπος που διαβάζει ένα βιβλίο"
-            />
-            <div class="caption-bad">BadEnds</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">3 / 4</div>
-            <img
-                    src="../ergasia/img/slides3.jpg"
-                    style="width: 100%"
-                    alt="Χαρούμενος άνθρωπος που διαβάζει ένα βιβλίο"
-            />
-            <div class="caption-good">GoodReads</div>
-        </div>
-
-        <div class="mySlides fade">
-            <div class="numbertext">4 / 4</div>
-            <img
-                    src="../ergasia/img/slides4.png"
                     style="width: 100%"
                     alt="Στεναχωρημένος άνθρωπος που διαβάζει ένα βιβλίο"
             />
@@ -104,6 +83,7 @@
 
     <!-- Οι εικόνες των πιο μισητών βιβλίων  -->
     <div class="item-grid" id="grid-homepage">
+        <!--
         <div class="result">
             <img
                     src="../ergasia/img/item4.jpg"
@@ -206,6 +186,7 @@
                 </div>
             </div>
         </div>
+        -->
     </div>
 </main>
 <div class="footer">
@@ -217,5 +198,6 @@
 </div>
 
 <script src="../ergasia/js/homepage.js" defer></script>
+
 </body>
 </html>
